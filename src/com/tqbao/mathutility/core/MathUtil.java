@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.tqbao.mathutility.core;
 
-/**
- *
- * @author tqbao4205
- */
 public class MathUtil {
     public static long getFactorial(int n) {
         if(n < 0 || n > 20)
