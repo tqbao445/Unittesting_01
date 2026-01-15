@@ -4,12 +4,14 @@
  */
 package com.tqbao.mathutility.main;
 
+import com.tqbao.mathutility.core.MathUtil;
+
 /**
  *
  * @author tqbao4205
  */
 public class Main {
     public static void main(String[] args) {
-        
+        System.out.println(MathUtil.getFactorialRecursion(5));
     }
 }
